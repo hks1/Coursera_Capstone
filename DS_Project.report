@@ -1,10 +1,12 @@
 Introduction/Business Problem:
-Comparing the Manhatten, NY and Toronto neighborhoods to find out the similarities between 2 palces.
+Idea of this exercise is to find a suitable neighborhood to open a coffee shop in Toronto or NY.
+Comparing the Manhatten, NY and Toronto neighborhoods to find out the similarities between 2 palces like what kind of businesses flourish in various neighborhoods of the cities.
+We'll also find out where is less compitition for a coffee shop business.
 
 Data:
-NY data - https://cocl.us/new_york_dataset
+NY data - https://cocl.us/new_york_dataset (Neighborhoods and corresponding latitude, longitude)
 Toronto data - 
-	list of Toronto neighborhoods - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+	list of Toronto neighborhoods - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M (postal codes and neighborhood names for Toronto)
 	latitude, longitude corresponding to postal code - http://cocl.us/Geospatial_data
 Foursquare API - to access location and neighborhood data and other information like location category, etc.
 
