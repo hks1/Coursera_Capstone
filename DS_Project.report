@@ -1,7 +1,7 @@
 Introduction/Business Problem:
-Idea of this exercise is to find a suitable neighborhood to open a coffee shop in Toronto or NY.
+Idea of this exercise is to find a suitable neighborhood to open a coffee shop in Toronto or NY for those who want to start a coffee shop business in NY or Toronto.
 Comparing the Manhatten, NY and Toronto neighborhoods to find out the similarities between 2 palces like what kind of businesses flourish in various neighborhoods of the cities.
-We'll also find out where is less compitition for a coffee shop business.
+We'll also find out where is less compitition for a coffee shop business to help highlight a place better suited for this business.
 
 Data:
 NY data - https://cocl.us/new_york_dataset (Neighborhoods and corresponding latitude, longitude)
