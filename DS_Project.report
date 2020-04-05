@@ -1,0 +1,10 @@
+Introduction/Business Problem:
+Comparing the Manhatten, Ny and Toronto neighborhoods to find out the similarities between 2 palces.
+
+Data:
+NY data - https://cocl.us/new_york_dataset
+Toronto data - 
+	list of Toronto neighborhoods - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+	latitude, longitude corresponding to postal code - http://cocl.us/Geospatial_data
+Foursquare API - to access location and neighborhood data and other information like location category, etc.
+
