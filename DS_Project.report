@@ -5,8 +5,18 @@ We'll also find out where is less compitition for a coffee shop business.
 
 Data:
 NY data - https://cocl.us/new_york_dataset (Neighborhoods and corresponding latitude, longitude)
+Here is the data format we would extract from above data source:
+Borough	Neighborhood	Latitude	Longitude
+
+
 Toronto data - 
 	list of Toronto neighborhoods - https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M (postal codes and neighborhood names for Toronto)
+	Data extracted from above wikipedia page after we scrapping:
+	Postal code	Borough	Neighborhood
+
 	latitude, longitude corresponding to postal code - http://cocl.us/Geospatial_data
+	will use latitude, longitude from the data provided by coursera, data contained in above file is below:
+	PostalCode	Latitude	Longitude
+
 Foursquare API - to access location and neighborhood data and other information like location category, etc.
 
