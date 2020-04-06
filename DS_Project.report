@@ -20,3 +20,55 @@ Toronto data -
 
 Foursquare API - to access location and neighborhood data and other information like location category, etc.
 
+Methodology:
+
+List of neighborhood was created for Manhattan, NY and Toronto (Downtown area) using coursera resources (for NY data) 
+and wikipedia website (for Toronto).
+
+After list of neighborhood was compiled, 
+each individual neighborhood was explored using foursquare api to analyze what kind of venues are around that neighborhood.
+
+For each neighborhood, latitude, longitude, venue and venue category was collected along with other details.
+
+It was then convereted into DataFrame and it provided the neighborhoods with most venues.
+
+This information was visulazed on a map using folium package for python.
+
+Using one hot encoding method, list of most common venues was collected.
+
+Clustering technique was used to group similar leighborhood based on the most common venues in the neighborhood.
+
+
+Results:
+
+Based on the analyses, 
+clusters with label 0 in Manhattan, NY are a good choice for coffee shops as there are not many of them already available.
+
+So next step was to get a list of neighborhoods in cluster with label 0.
+Total 28 neighborhoods were returned for cluster labeled 0 in Manhattan, NY
+
+Out of them 5 neighborhoods are such that coffee shop is not one of the first 3 most common venues there. Here is the list:
+Central Harlem
+Tribeca
+West Village
+Gramercy
+Hudson Yards
+
+
+
+Discussion:
+
+So one out of above 5 neighborhoods should be a good place to open a coffee shop.
+There can be done some further analysis to find out the cost involved to open a coffee shop in each of these location 
+and based on that recommendations can be refined.
+
+I also analysed Toronto neighborhoods, cluster with label 0 already has a lot of coffee shops and others don't 
+but these other neighborhoods are mostly area having parks, trails, pools, dance and yoga studio, swim school, etc.
+
+
+Conclusion:
+
+So to conclude Manhattan, NY seems like a better choice than Toronto for a coffee shop business and 
+a few locations in Manhattan, NY are a good prospect than others.
+
+
